@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF7D08C31CAE33F80051BA68 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AF7D08C21CAE33F80051BA68 /* main.c */; };
+		AF7D08D01CAE342D0051BA68 /* cachelab.c in Sources */ = {isa = PBXBuildFile; fileRef = AF7D08C91CAE342D0051BA68 /* cachelab.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF7D08BD1CAE33F80051BA68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF7D08BF1CAE33F80051BA68 /* CacheSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CacheSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7D08C21CAE33F80051BA68 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AF7D08C91CAE342D0051BA68 /* cachelab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cachelab.c; sourceTree = "<group>"; };
+		AF7D08CA1CAE342D0051BA68 /* cachelab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cachelab.h; sourceTree = "<group>"; };
+		AF7D08CB1CAE342D0051BA68 /* dave.trace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dave.trace; sourceTree = "<group>"; };
+		AF7D08CC1CAE342D0051BA68 /* long.trace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = long.trace; sourceTree = "<group>"; };
+		AF7D08CD1CAE342D0051BA68 /* trans.trace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trans.trace; sourceTree = "<group>"; };
+		AF7D08CE1CAE342D0051BA68 /* yi.trace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yi.trace; sourceTree = "<group>"; };
+		AF7D08CF1CAE342D0051BA68 /* yi2.trace */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = yi2.trace; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF7D08BC1CAE33F80051BA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF7D08B61CAE33F80051BA68 = {
+			isa = PBXGroup;
+			children = (
+				AF7D08C11CAE33F80051BA68 /* CacheSimulator */,
+				AF7D08C01CAE33F80051BA68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7D08C01CAE33F80051BA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF7D08BF1CAE33F80051BA68 /* CacheSimulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7D08C11CAE33F80051BA68 /* CacheSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				AF7D08C91CAE342D0051BA68 /* cachelab.c */,
+				AF7D08CA1CAE342D0051BA68 /* cachelab.h */,
+				AF7D08CB1CAE342D0051BA68 /* dave.trace */,
+				AF7D08CC1CAE342D0051BA68 /* long.trace */,
+				AF7D08CD1CAE342D0051BA68 /* trans.trace */,
+				AF7D08CE1CAE342D0051BA68 /* yi.trace */,
+				AF7D08CF1CAE342D0051BA68 /* yi2.trace */,
+				AF7D08C21CAE33F80051BA68 /* main.c */,
+			);
+			path = CacheSimulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF7D08BE1CAE33F80051BA68 /* CacheSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7D08C61CAE33F80051BA68 /* Build configuration list for PBXNativeTarget "CacheSimulator" */;
+			buildPhases = (
+				AF7D08BB1CAE33F80051BA68 /* Sources */,
+				AF7D08BC1CAE33F80051BA68 /* Frameworks */,
+				AF7D08BD1CAE33F80051BA68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CacheSimulator;
+			productName = CacheSimulator;
+			productReference = AF7D08BF1CAE33F80051BA68 /* CacheSimulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7D08B71CAE33F80051BA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sean Greevers";
+				TargetAttributes = {
+					AF7D08BE1CAE33F80051BA68 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AF7D08BA1CAE33F80051BA68 /* Build configuration list for PBXProject "CacheSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF7D08B61CAE33F80051BA68;
+			productRefGroup = AF7D08C01CAE33F80051BA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7D08BE1CAE33F80051BA68 /* CacheSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7D08BB1CAE33F80051BA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7D08D01CAE342D0051BA68 /* cachelab.c in Sources */,
+				AF7D08C31CAE33F80051BA68 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF7D08C41CAE33F80051BA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF7D08C51CAE33F80051BA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF7D08C71CAE33F80051BA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF7D08C81CAE33F80051BA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7D08BA1CAE33F80051BA68 /* Build configuration list for PBXProject "CacheSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7D08C41CAE33F80051BA68 /* Debug */,
+				AF7D08C51CAE33F80051BA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7D08C61CAE33F80051BA68 /* Build configuration list for PBXNativeTarget "CacheSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7D08C71CAE33F80051BA68 /* Debug */,
+				AF7D08C81CAE33F80051BA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF7D08B71CAE33F80051BA68 /* Project object */;
+}
